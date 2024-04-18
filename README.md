@@ -1,3 +1,11 @@
+Frontend Outline
+1. Structure of website: determine the sections of website and implement routing
+    "About" page, "Past projects" page
+2. Design: make website aesthetically pleasing
+3. Content: fill website with content
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
