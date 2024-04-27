@@ -9,9 +9,41 @@
 }
 
 p{
-    padding-left: 25%;
-    padding-right: 25%;
+    padding-left: 10%;
     color: black;
     font-size: 16px;
     font-family: Helvetica;
+}
+
+.cardcontent{
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.firstline{
+    padding-top: 50px;
+}
+
+.socialicons{
+    float: right;
+    padding-top: 10%;
+    width: 10%;
+}
+
+.aboutcontent{
+    float: left;
+    width: 80%
+}
+
+.icons{
+    padding-left: 10%;
+}
+
+.procard{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.socialicon{
+    padding-bottom: 20px;
 }

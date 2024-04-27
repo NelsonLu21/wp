@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
   return (
     <div classname="App">
-      <Router>
+      <Router basename="/wp">
         <Routes>
           <Route path="/" element={<About />} />
           <Route path="/about" element={<About />} />

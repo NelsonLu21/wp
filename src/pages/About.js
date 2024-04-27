@@ -1,13 +1,14 @@
 import React from "react";
 import Header from "../components/Header";
+import { SocialIcon } from "react-social-icons";
 import "./Pages.css";
 
 function About() {
   return (
     <div>
       <Header />
-      <div>
-        <p>Hello! </p>
+      <div class="aboutcontent">
+        <p class="firstline">Hello! </p>
 
         <p>
           {" "}
@@ -53,6 +54,24 @@ function About() {
         </p>
 
         <p> Thank you for stopping by! </p>
+      </div>
+
+      <div class="socialicons">
+        <div class="socialicon">
+          <SocialIcon
+            url="https://github.com"
+            href="https://github.com/NelsonLu21"
+            style={{ height: 50, width: 50, alignItems: "right" }}
+          />
+        </div>
+
+        <div class="socialicon">
+          <SocialIcon
+            url="https://linkedin.com"
+            href="https://www.linkedin.com/in/nelson-lu-8039b4232/"
+            style={{ height: 50, width: 50, alignItems: "right" }}
+          />
+        </div>
       </div>
     </div>
   );
