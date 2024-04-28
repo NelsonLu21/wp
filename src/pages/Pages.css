@@ -4,15 +4,14 @@
     text-align: center;
     padding-left: 25%;
     padding-top: 100px;
-    padding-bottom: 25px;
     width: 50%;
 }
 
 p{
-    padding-left: 10%;
+    padding-left: 15%;
     color: black;
     font-size: 16px;
-    font-family: Helvetica;
+    font-family: 'Monospace';
 }
 
 .cardcontent{
@@ -47,3 +46,4 @@ p{
 .socialicon{
     padding-bottom: 20px;
 }
+

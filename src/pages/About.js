@@ -2,8 +2,12 @@ import React from "react";
 import Header from "../components/Header";
 import { SocialIcon } from "react-social-icons";
 import "./Pages.css";
+import { useEffect } from "react";
 
 function About() {
+  useEffect(() => {
+    document.title = "About";
+  }, []);
   return (
     <div>
       <Header />
@@ -20,21 +24,27 @@ function About() {
 
         <p>
           {" "}
-          At the heart of my academic pursuits lies a deep-seated fascination
-          with Algorithms and Complexities, alongside Artificial Intelligence.
-          These areas stand as the twin pillars that fuel my curiosity and drive
-          my ambition to contribute to the field of technology. The intricacies
-          of how algorithms solve complex problems and the boundless
-          possibilities within AI are what captivate me the most.
+          My academic background in computer science has equipped me with a
+          solid foundation in algorithms and complexities. I have delved into
+          topics such as data structures, concurrent programming, and algorithms
+          and complexities, which have honed my problem-solving skills.
+          Additionally, my coursework has provided me with a deep understanding
+          of low-level implementations of computer systems, including memory
+          management, assembly language, and system architecture. I am
+          proficient in C/C++ and have hands-on experience with low level
+          operations and optimizations.
         </p>
 
         <p>
-          My coding journey has been diverse, with a strong foundation in C and
-          C++, which laid the groundwork for my understanding of programming
-          principles. Python then introduced me to a world of simplicity and
-          versatility, allowing me to explore AI and machine learning in depth.
-          JavaScript has enabled me to bring my ideas to life on the web, making
-          my projects accessible and interactive.{" "}
+          I have also gained practical experience by participating in the design
+          and implementation of multiple web applications in a professional
+          setting. These projects allowed me to apply my knowledge in real-world
+          business scenarios, further developing my skills in full-stack
+          development, user interface design, and database management. My role
+          often required me to lead cross-functional teams through the entire
+          software development lifecycle, ensuring that each application was not
+          only functional but also met high standards of quality and user
+          experience.{" "}
         </p>
 
         <p>
@@ -47,13 +57,11 @@ function About() {
 
         <p>
           Through this website, I aim to share my journey, projects, and
-          insights with you. Whether you're a fellow student, a professional in
-          the field, or simply someone curious about technology and economics, I
+          insights. Whether you're a fellow student, a professional in the
+          field, or simply someone curious about technology and economics, I
           hope to spark discussions, forge connections, and explore the future
           of tech together.
         </p>
-
-        <p> Thank you for stopping by! </p>
       </div>
 
       <div class="socialicons">

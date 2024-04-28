@@ -1,21 +1,27 @@
 import React from "react";
-import { useState } from "react";
 import Header from "../components/Header";
-import { Button } from "antd";
 import { ProCard } from "@ant-design/pro-components";
+import { Divider } from "antd";
 import "./Pages.css";
+import { useEffect } from "react";
 
 function Projects() {
-  const [collapsed, setCollapsed] = useState(true);
+  useEffect(() => {
+    document.title = "Projects";
+  }, []);
 
   return (
     <div>
       <Header />
       <p class="title">Projects</p>
+      <div style={{ paddingLeft: "20%", paddingRight: "20%" }}>
+        {" "}
+        <Divider />{" "}
+      </div>
       <div class="procard">
         <ProCard
+          split="false"
           title="Second Hand Marketplace for UCLA Students"
-          headerBordered
           collapsible
           defaultCollapsed
           onCollapse={(collapse) => console.log(collapse)}
@@ -32,7 +38,6 @@ function Projects() {
 
         <ProCard
           title="Simple Brick Breaker Implementation using OpenGL"
-          headerBordered
           collapsible
           defaultCollapsed
           onCollapse={(collapse) => console.log(collapse)}
